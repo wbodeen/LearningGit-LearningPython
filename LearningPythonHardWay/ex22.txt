@@ -1,0 +1,49 @@
+python - launches the interpreter of our scripts
+quit() - ends the python session
+mkdir - command line command that makes a new directory. in powershell, they use a different command.
+cd - command line command to change the directory
+dir - lists the aspects of the current directory.
+IDE - Integrated development environment. Not just an interpreter, but also tools useful in debugging, executing, and testing.
+IDLE - Integrated development and Learning environment. It's the default python bundled IDE.
+print - function used to display strings in python.
+# - hashtag used for commenting in lines of code, or also as a temporary way to disable a line of code.
++ - add
+- - subtract
+/ - devide
+* - multiply
+% - provides the remainder after a division
+< - less than
+> - greater than
+<= - less than or equal
+>= - greater than or equal
+== - checks of something is equal or not
+{} - used for inserting the values of variables into strings
+print(f"") - f in this case is used to format the string. necessary when inserting string containing variables
+'' - used for strings.
+"" - also used for strings.
+.format - equivalent to the f in print(f"") but can be used as a function on the end of a string.
+\n - new line 'escape'
+""" - sequence used when you want to spread a string over multiple lines. keeps things nice and neat. can use ''' if necessary.
+\ - escape function. variety of these that serve different purposed. \n newline \\ will allow a \ to be printed. \" will allow a " to be printed within a print("")
+\t - escape that tabs the line
+end=' ' - goes to the next line without inserting a \n into the file.
+input() - triggers a prompt to the use to provide information.
+int() - changes the variable 'type' to an integer
+float() - changes the variable 'type' to a floating value.
+from - used when designating a particular module
+sys - a module that contains a variety of useful functions to use with python
+import argv - imports the function/variable argv which can be used to define multiple thigns as variables when unpacking.
+open - function used to open a file - requires a mode for what you intend to do with it. read, write, append, etc. 
+.read - function that is used on an opened file
+close - closes a currently open file.
+readline - function that reads a specified line
+truncate - function that erases the content of a file from the current line down.
+write() - function that will write to a file. 
+seek(0) - moves to the first byte in the file.
+os.path - module that is useful for determining directories and their paths. this is a module (os module) function (path function) that we imported specifically
+exists - this is a value that is stored that you can use when checking if a file/dir is present.
+def - define. used in writing a function within the script.
+*args - used when there are going to be multiple variables unpacked within the function, but arent defined specifically in the () following the function. the * allows an infinite number of arguments to be used when running the script as long as those arguments are unpacked for the function.
++= - basically takes a variable and adds the defined number to it. good for doing 'stepping'
+return - does a mathematical calculation and returns the result.
+

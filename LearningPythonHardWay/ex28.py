@@ -1,0 +1,21 @@
+# True
+# False
+# False
+# True
+# True
+# True
+# False
+# True
+# false
+# false
+# true
+# false
+####### False
+# False
+####### True
+####### True
+####### False
+# True
+# False
+# False
+
