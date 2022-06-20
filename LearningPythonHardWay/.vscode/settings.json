@@ -1,0 +1,5 @@
+{
+    "editor.showFoldingControls": "always",
+    "scm.alwaysShowActions": true,
+    "scm.alwaysShowRepositories": true
+}
